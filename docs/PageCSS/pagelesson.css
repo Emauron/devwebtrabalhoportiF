@@ -9,7 +9,7 @@
 main {
        display: flex;
        justify-content: end;
-       background-color: rgb(0, 0, 0);
+       background-color: #264DE4;
 }
 #menu {
        flex-basis: 1615px;
