@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Document</title>
+       <link rel="stylesheet" href="nav-bar.css">
+       <link rel="stylesheet" href="page.css">
+       <link rel="stylesheet" href="pagelesson.css">
+       <style>
+              .code {
+                     font-family: fontExterna1B;
+                     color: white;
+                     font-size: 22pt;
+                     margin-right:50px;
+                     max-width: 400px;
+                     opacity: 80%;
+              }
+              #menu {
+                     height: 350vh;
+              }
+              #menu ul {
+                     margin: 0;
+                     margin-top: 20px;
+                     color: white;
+                     font-size: 18pt;
+                     max-width: 900px;
+                     text-align: justify;
+                     font-family: fontExterna1B;
+                     margin-left: 60px;
+                     list-style: none;
+              }
+              #menu ul li {
+                     margin-bottom: 5px;
+              }
+       </style>                
+</head>
+<body>
+       <nav id="nav_bar">
+              <a href="../[01] First Page/index.html">
+                     <div id="title_nav">
+                     <img src="imgs/nav_icon.png" alt="" id="menu_nav_icon"><img src="" alt="">
+                     <h3>MENU</h3>
+              </div>
+              </a>
+              <ul id="items_list">
+                     <a href="../Introduction/introduction.html" id="item_1" class="nav_item"><li>Introdução</li></a>
+                     <a href="../PageHTML/tagspage.html" id="item_2" class="nav_item"><li>Tags HTML</li></a>
+                     <a href="../PageCSS/pagestylecss.html" id="item_3" class="nav_item"><li>Estilo CSS</li></a>
+                     <a href="../PageExemples/mainExemple.html" id="item_4" class="nav_item"><li>Exemplos</li></a>
+              </ul>
+       </nav>
+       <main>
+              <section id="menu">
+                     <div id="introductionText">
+                     <h1 >DISPLAY</h1>
+                     </div>
+                     <article>
+                            <p>    
+                             O atributo display é usado para controlar como um elemento HTML é exibido no layout da página. Ele determina o tipo de "caixa" que um elemento se torna e como ele interage com outros elementos em relação ao espaço na página. <br><br>    
+                            </p>
+                     </article>
+                     <div id="introductionText">
+                            <h2>none</h2>
+                     </div>
+                            <article>
+                                   <p>
+                                          Elementos com display: none; são completamente ocultados da renderização da página.
+                                          Eles não ocupam espaço na página e não são interativos.
+
+                                          
+                                   </p>
+                                   <div class="code" id="code1">
+                                          <span>
+                                                 elemento { <br>
+                                                        display: none; <br>
+                                                    } <br>
+                                          </span>
+                                   </div>
+                            </article>
+                     </div>
+                     <div id="introductionText">
+                            <h2>block</h2>
+                     </div>
+                            <article>
+                                   <p>
+                                          Elementos com display: block; são exibidos como blocos retangulares que ocupam toda a largura disponível.
+                                          Eles começam em uma nova linha e empurram elementos subsequentes para uma nova linha também.
+                                          
+                                   </p>
+                                   <div class="code" id="code2">
+                                          <span>
+                                                 elemento { <br>
+                                                        display: block; <br>
+                                                    } <br>
+                                          </span>
+                                   </div>
+                            </article>
+                     </div>
+                     <div id="introductionText">
+                            <h2>inline</h2>
+                     </div>
+                            <article>
+                                   <p>
+                                          Elementos com display: inline; são exibidos em linha com o texto ou outros elementos em torno deles.
+                                          Eles não começam em uma nova linha e só ocupam o espaço necessário.
+                                          
+                                   </p>
+                                   <div class="code" id="code3">
+                                          <span>
+                                                 elemento { <br>
+                                                        display: inline; <br>
+                                                    } <br>
+                                          </span>
+                                   </div>
+                            </article>
+                     </div>
+                     <div id="introductionText">
+                            <h2>inline-block</h2>
+                     </div>
+                            <article>
+                                   <p>
+                                          Elementos com display: inline-block; são exibidos em linha, mas como blocos retangulares, permitindo que você ajuste largura e altura.
+                                          Eles não começam em uma nova linha e podem ocupar espaço horizontalmente, como elementos inline, mas também podem ter dimensões verticais como elementos block.
+                                          
+                                   </p>
+                                   <div class="code" id="code4">
+                                          <span>
+                                                 elemento { <br>
+                                                        display: inline-block; <br>
+                                                    } <br>
+                                          </span>
+                                   </div>
+                            </article>
+                     </div>
+                     <div id="introductionText">
+                            <h2>flex</h2>
+                     </div>
+                            <article>
+                                   <p>
+                                          O display: flex é uma propriedade do CSS que define um elemento pai (contêiner) como um container flexível, permitindo o posicionamento e o alinhamento de seus filhos (itens) de forma flexível em uma única dimensão, que pode ser horizontal (linha) ou vertical (coluna). 
+                                          <br><br>
+                                          <strong>flex-direction:</strong> row; row-rever; column; column-reverse | direção dos elementos <br><br>
+                                          <strong>justify-content:</strong> flex-start; flex-end; center; space-around; space-beteween; stretch; | alinhamento dos elementos <br><br>
+                                          <strong>align-items:</strong> flex-start; flex-end; center; stretch | alinhamentos dos elementos
+                                   </p>
+
+                                   <div class="code" id="code5">
+                                          <span>
+                                                 elemento { <br>
+                                                        display: flex; <br>
+                                                        flex-direction:   ; <br>
+                                                        justify-content:  ; <br>
+                                                        align-items:  ; <br>
+                                                        <br>
+                                                    } <br>
+                                          </span>
+                                   </div>
+                            </article>
+                     </div>
+                     </div>
+                            <article>
+                                   <p>
+                                          O display: flex é uma propriedade do CSS que define um elemento pai (contêiner) como um container flexível, permitindo o posicionamento e o alinhamento de seus filhos (itens) de forma flexível em uma única dimensão, que pode ser horizontal (linha) ou vertical (coluna). 
+                                          <br><br>
+                                          <strong>flex-direction:</strong> row; row-rever; column; column-reverse | direção dos elementos <br><br>
+                                          <strong>justify-content:</strong> flex-start; flex-end; center; space-around; space-beteween; stretch; | alinhamento dos elementos <br><br>
+                                          <strong>align-items:</strong> flex-start; flex-end; center; stretch | alinhamentos dos elementos
+                                   </p>
+
+                                   
+                            </article>
+                     </div>
+                     </div>
+                            <article>
+                                   <p>
+                                          O display: flex é uma propriedade do CSS que define um elemento pai (contêiner) como um container flexível, permitindo o posicionamento e o alinhamento de seus filhos (itens) de forma flexível em uma única dimensão, que pode ser horizontal (linha) ou vertical (coluna). 
+                                          <br><br>
+                                          <strong>flex-direction:</strong> row; row-rever; column; column-reverse | direção dos elementos <br><br>
+                                          <strong>justify-content:</strong> flex-start; flex-end; center; space-around; space-beteween; stretch; | alinhamento dos elementos <br><br>
+                                          <strong>align-items:</strong> flex-start; flex-end; center; stretch | alinhamentos dos elementos
+                                   </p>
+
+                            
+                            </article>
+                     </div>
+                     <div id="introductionText">
+                            <h2>grid layout</h2>
+                     </div>
+                            <article>
+                                   <p>
+                                          é uma poderosa técnica de layout em CSS que permite criar layouts bidimensionais (ou seja, em duas dimensões: colunas e linhas) de maneira altamente flexível e precisa. O Grid é particularmente útil para criar layouts complexos e responsivos, onde os elementos precisam ser colocados em relação uns aos outros de forma precisa e eficiente. 
+                                          <br><br>
+                                          <strong>flex-direction:</strong> row; row-rever; column; column-reverse | direção dos elementos <br><br>
+                                          <strong>justify-content:</strong> flex-start; flex-end; center; space-around; space-beteween; stretch; | alinhamento dos elementos <br><br>
+                                          <strong>align-items:</strong> flex-start; flex-end; center; stretch | alinhamentos dos elementos
+                                          <br><br>
+                                          Possui diversas propriedades, como:
+                                   </p>
+
+                                   <div class="code" id="code5">
+                                          <span>
+                                                 elemento { <br>
+                                                        display: grid; <br>
+                                                        grid-template-columns:   ; <br>
+                                                        grid-template-rows:  ; <br>
+                                                        gap:  ; <br>
+                                                        <br>
+                                                    } <br>
+                                          </span>
+                                   </div>
+                                   <br><br>
+
+                                   <ul>   
+                                          <li>grid-template-columns</li>
+                                          <li>grid-template-rows</li>
+                                          <li>grid-template-areas</li>
+                                          <li>grid-gap</li>
+                                          <li>justify-item</li>
+                                          <li>align-items</li>
+                                          <li>justify-content</li>
+                                          <li>align-content</li>
+                                          <li>grid-auto-columns</li>
+                                          <li>grid-auto-rows</li>
+                                          <li>grid-auto-flow</li>
+                                          <li>grid</li>
+                                          <li>grid-column</li>
+                                          <li>grid-row</li>
+                                          <li>grid-area</li>
+                                          <li>place-self</li>
+                                          <li>place-items</li>
+
+
+                            </article>
+                     </div>
+                     
+       </main>
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Document</title>
+       <link rel="stylesheet" href="nav-bar.css">
+       <link rel="stylesheet" href="page.css">
+       <link rel="stylesheet" href="pagelesson.css">
+       <style>
+              body {
+                     overflow-y:scroll;
+              }
+              .code {
+                     font-family: fontExterna1B;
+                     color: white;
+                     font-size: 32pt;
+                     margin-right:50px;
+                     opacity: 80%;
+              }
+              #code3 {
+                     margin-top: 40px;
+                     margin-left: 100px;
+                     font-size: 26pt;
+              }
+
+       </style>
+</head>
+<body>
+       <nav id="nav_bar">
+              <div id="title_nav">
+                     <a href="../[01] First Page/index.html">
+                            <img src="imgs/nav_icon.png" alt="" id="menu_nav_icon"><img src="" alt="">
+                            <h3>MENU</h3>
+                            </div>
+                     </a>
+              <ul id="items_list">
+                     <a href="../Introduction/introduction.html" id="item_1" class="nav_item"><li>Introdução</li></a>
+                     <a href="../PageHTML/tagspage.html" id="item_2" class="nav_item"><li>Tags HTML</li></a>
+                     <a href="../PageCSS/pagestylecss.html" id="item_3" class="nav_item"><li>Estilo CSS</li></a>
+                     <a href="../PageExemples/mainExemple.html" id="item_4" class="nav_item"><li>Exemplos</li></a>
+                     
+              </ul>
+       </nav>
+       <main>
+              <section id="menu">
+                     <div id="introductionText">
+                            <h1 >Listas</h1>
+                            <h2>Lista ordenada - &lt;ol></h2>
+                     </div>
+                     <article>
+                            <p>
+                                   As listas ordenadas são usadas quando você deseja apresentar itens em uma sequência específica, geralmente numerando-os ou usando letras.
+                                   Os itens em uma lista ordenada são automaticamente numerados ou marcados, dependendo do tipo de lista (números, letras, algarismos romanos, etc.).
+                                   A tag principal para criar listas ordenadas é &lt;ol>, e cada item da lista é representado por uma tag &lt;li> (List Item).
+                            </p>
+                            <div class="code">
+                                   <span>
+                                          &lt;ol> <br>
+                                                 &lt;li>Item 1&lt;/li> <br>
+                                                 &lt;li>Item 2&lt;/li> <br>
+                                                 &lt;li>Item 3&lt;/li> <br>
+                                          &lt;/ol> <br>
+                                   </span>
+                            </div>
+                     </article>
+                     <div id="introductionText">
+                            <h2>Lista não ordenada - &lt;ul></h2>
+                     </div>
+                            <article>
+                                   <p>
+                                          As listas não ordenadas são usadas para listar itens em uma ordem não específica, geralmente usando marcadores como pontos, traços ou círculos. <br>
+                                          A tag principal para criar listas não ordenadas é &lt;ul>, e cada item da lista também é representado por uma tag &lt;li>.
+                                   </p>
+                                   <div class="code">
+                                          <span>
+                                                 &lt;ul> <br>
+                                                        &lt;li>Item 1&lt;/li> <br>
+                                                        &lt;li>Item 2&lt;/li> <br>
+                                                        &lt;li>Item 3&lt;/li> <br>
+                                                 &lt;/ul> <br>
+                                          </span>
+                                   </div>
+                            </article>     
+                     </div>
+                     <div id="introductionText">
+                            <h2>Lista de definição - &lt;dl></h2>
+                     </div>
+                            <article>
+                                   <p>
+                                          As listas não ordenadas são usadas para listar itens em uma ordem não específica, geralmente usando marcadores como pontos, traços ou círculos. <br>
+                                          A tag principal para criar listas não ordenadas é &lt;ul>, e cada item da lista também é representado por uma tag &lt;li>.
+                                   </p>
+                                   <div class="code" id="code3">
+                                          <span>
+                                                 &lt;dl> <br>
+                                                        &lt;dt>HTML&lt;/dt> <br>
+                                                        &lt;dd>HyperText Markup Language - Linguagem de Marcação de Hipertexto.&lt;/dd> <br>
+                                                        &lt;dt>CSS&lt;/dt> <br>
+                                                        &lt;dd>Cascading Style Sheets - Folhas de Estilo em Cascata.&lt;/dd> <br>
+                                                 &lt;/dl> <br>
+                                          </span>
+                                   </div>
+                            </article>     
+                     </div>
+              </section>    
+       </main>              
+</body>
+</html>

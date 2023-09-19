@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Document</title>
+       <link rel="stylesheet" href="nav-bar.css">
+       <link rel="stylesheet" href="page.css">
+       <link rel="stylesheet" href="pagelesson.css">
+       <style>
+              #menu ul {
+                     margin: 0;
+                     margin-top: 20px;
+                     color: white;
+                     font-size: 18pt;
+                     max-width: 900px;
+                     text-align: justify;
+                     font-family: fontExterna1;
+                     margin-left: 25px;
+                     max-width: 600px;
+                     list-style: none;
+              }
+              #menu ul li {
+                     margin-bottom: 20px;
+              }
+              .code {
+                     font-family: fontExterna1B;
+                     color: white;
+                     font-size: 24pt;
+                     margin-right:30px;
+                     opacity: 80%;
+                     max-width: 550px;
+              }
+              .code img {
+                     width: 600px;
+                     margin-top: 20px;
+                     position: relative;
+                     left: -220px;
+              }
+       </style>
+</head>
+<body>
+       <nav id="nav_bar">
+              <div id="title_nav">
+                     <a href="../[01] First Page/index.html">
+                            <img src="imgs/nav_icon.png" alt="" id="menu_nav_icon"><img src="" alt="">
+                            <h3>MENU</h3>
+                            </div>
+                     </a>
+              <ul id="items_list">
+                     <a href="../Introduction/introduction.html" id="item_1" class="nav_item"><li>Introdução</li></a>
+                     <a href="../PageHTML/tagspage.html" id="item_2" class="nav_item"><li>Tags HTML</li></a>
+                     <a href="../PageCSS/pagestylecss.html" id="item_3" class="nav_item"><li>Estilo CSS</li></a>
+                     <a href="../PageExemples/mainExemple.html" id="item_4" class="nav_item"><li>Exemplos</li></a>
+              </ul>
+       </nav>
+       <main>
+              <section id="menu">
+                     <div id="introductionText">
+                     <h1 >Imagens</h1>
+                     </div>
+                     <article>
+                            <div>
+                            <p>Em HTML, as imagens são incorporadas em uma página da web usando a tag &lt;img>. A tag &lt;img> não tem uma tag de fechamento, pois é uma tag vazia que não contém conteúdo textual. Em vez disso, você define os atributos dentro da tag &lt;img> para especificar a localização e o comportamento da imagem. <br>
+                            ATRIBUTOS:</p><br>
+                            <ul>
+                                   <li><strong>src: </strong>Especifica o caminho para a imagem que você deseja exibir. Pode ser uma URL da web ou um caminho local para a imagem no seu servidor.</li>
+                                   <li><strong>alt: </strong> O atributo alt (texto alternativo) fornece uma descrição textual da imagem. É importante para acessibilidade, pois é exibido quando a imagem não pode ser carregada e é lido por leitores de tela para ajudar os usuários com deficiência visual a entender o conteúdo da imagem.</li>
+                                   <li><strong>title: </strong>Exibirá um texto de dica quando o usuário passar o mouse sobre a imagem.</li>
+                            </ul>
+                            </div>
+                            <div class="code">
+                                   <span>&lt;img src="caminho/para/sua/imagem.jpg" alt="Descrição da imagem" title="Imagem de exemplo"> </a></span>
+                                   <img src="imgs/image_icon.png" alt="">
+                            </div>
+                     </article>
+       </main>
+</body>
+</html>

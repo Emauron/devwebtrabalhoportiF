@@ -1,0 +1,104 @@
+@font-face {
+       font-family: fontExterna1;
+       src: url(../PPTelegraf-Regular.otf);
+}
+@font-face {
+       font-family: fontExterna1B;
+       src: url(../PPTelegraf-UltraBold.otf);
+}
+main {
+       padding: 0;
+       margin: 0;
+       box-sizing: 0;
+       height: 3200px;
+       width: 1900px;
+       position: absolute;
+       margin-left: -230px;
+       z-index: 0;
+}
+main h2 {
+       margin: 0;
+       margin: 0;
+       font-family: fontExterna1;
+       font-size: 90pt;
+       margin-left: 10%;
+       margin-top: 50px;
+       flex-basis: 400px;
+
+       color: white;
+       display: inline-block;
+}
+main p {
+       margin: 0;
+       color: white;
+       font-size: 18pt;
+       flex-basis: 400px;
+       margin-top: 100px;
+       max-width: 700px;
+       text-align: justify;
+       font-family: fontExterna1;
+}
+#secHtml p {
+       margin-left: 10%;
+}
+#secCSS p {
+       margin-left: 15%;
+       flex-basis: 400px;
+}
+#secWhy article {
+       margin-left: -900px;
+}
+#secCan p{
+       font-family: fontExterna1B;
+       color:#264DE4; 
+       text-shadow: 2px 1px 5px rgb(112, 88, 88);
+}
+#secCan h2 {
+       color:#264DE4; 
+       text-shadow: 2px 1px 5px rgb(112, 88, 88);
+}
+#secCan article {
+       margin-left: -700px;
+}
+main img {
+       transform: scale(0.85,0.85);
+       margin-right: 200px;
+       opacity: 50%;
+}
+#secWhy img {
+       margin-left: -400px; 
+       opacity: 100%;  
+}
+
+.explainSec {
+       box-shadow: -0px -5px 40px black;
+       display: flex;
+       justify-content: space-around;
+}
+#secHtml {
+       background-color: #F16529;
+       margin-top: 170px;
+       height: 850px;
+       
+}
+#secCSS {
+       background-color: #2965F1;
+       height: 850px;
+       
+}
+#secWhy {
+       background-color: #5D26E4;
+       height: 850px;
+}
+#secCan {
+       background-color: antiquewhite;
+       height: 850px;
+       background-image: url(imgs/bigtechs_img.png);
+       background-repeat: no-repeat;
+       background-position-y: 500px;
+       background-position-x:600px ;
+       
+}
+#secCan h2 {
+       width: 700px;
+}

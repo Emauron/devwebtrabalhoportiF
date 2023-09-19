@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Document</title>
+       <link rel="stylesheet" href="nav-bar.css">
+       <link rel="stylesheet" href="page.css">
+       <link rel="stylesheet" href="pagelesson.css">
+       <style>
+              body {
+                     overflow-y: hidden;
+              }
+              .code {
+                     font-family: fontExterna1B;
+                     color: white;
+                     font-size: 22pt;
+                     margin-right:50px;
+                     max-width: 500px;
+                     opacity: 70%;
+              }
+       </style>
+</head>
+<body>
+       <nav id="nav_bar">
+              <a href="../[01] First Page/index.html">
+                     <div id="title_nav">
+                     <img src="imgs/nav_icon.png" alt="" id="menu_nav_icon"><img src="" alt="">
+                     <h3>MENU</h3>
+              </div>
+              </a>
+              <ul id="items_list">
+                     <a href="../Introduction/introduction.html" id="item_1" class="nav_item"><li>Introdução</li></a>
+                     <a href="../PageHTML/tagspage.html" id="item_2" class="nav_item"><li>Tags HTML</li></a>
+                     <a href="../PageCSS/pagestylecss.html" id="item_3" class="nav_item"><li>Estilo CSS</li></a>
+                     <a href="../PageExemples/mainExemple.html" id="item_4" class="nav_item"><li>Exemplos</li></a>
+              </ul>
+       </nav>
+       <main>
+              <section id="menu">
+                     <div id="introductionText">
+                     <h1 >BORDA</h1>
+                     </div>
+                     <article>
+                            <p>    
+                                   A propriedade border em CSS é usada para definir a borda de um elemento HTML. Ela permite que você adicione uma linha ou um contorno ao redor do elemento, ajudando a destacá-lo, separá-lo de outros elementos e melhorar o design geral de uma página da web. 
+                                   <br><br>
+                                   <strong>Seletor:</strong> Isso especifica qual elemento ou elementos HTML a regra se aplicará. Você pode usar tags HTML, classes, IDs ou outros seletores para direcionar elementos específicos. Por exemplo, p para parágrafos, .classe para classes, #id para IDs.
+                                   <br><br>
+                                   <strong>Propriedade:</strong> É a característica que você deseja estilizar, como color (cor), font-size (tamanho da fonte), background-color (cor de fundo), etc.
+                                   <br><br>
+                                   <strong>Valor:</strong> É o valor que você deseja atribuir à propriedade. Pode ser um número, uma cor, um tamanho, uma unidade de medida, etc.
+                            <br><br>      
+                     </p>
+                     <div class="code" id="code_bg">
+                            <span>
+                                   elemento { <br>
+                                          border-style: solid;/* Borda sólida */<br>
+                                          border-style: dashed;/* Borda tracejada*/ <br>
+                                          border-color: white /* Cor da borda */ <br>
+                                          border-top: / border-bottom: / border-right: / border-left: /* Posição da borda */ <br>
+                                      } <br>
+                            </span>
+                     </div>
+                            
+                     </article>
+       </main>
+</body>
+</html>

@@ -1,0 +1,79 @@
+@font-face {
+       font-family: fontExterna1;
+       src: url(PPTelegraf-Regular.otf);
+}
+@font-face {
+       font-family: fontExterna1B;
+       src: url(PPTelegraf-UltraBold.otf);
+}
+#nav_bar h3 {
+       display: inline;
+       padding: 0;
+       padding-left: 15px;
+       margin: 0;
+       position: absolute;
+       top:18px;
+       font-family: fontExterna1B;
+       color: white;
+       font-size: 0;
+       opacity: 0%;
+       transition-timing-function: ease;
+       transition-duration: 0.5s;
+}
+#nav_bar {
+       position: fixed;
+       height: 100%;
+       background-color: #264DE4;
+       padding: 5px;
+       z-index: 1;
+       transition-duration: 0.5s;
+}
+#nav_bar:hover li {
+       font-size: 18pt;
+       padding-right: 10px;
+       padding-left: 10px;
+       opacity: 100%;
+       
+}
+#nav_bar:hover h3 {
+       font-size: 20pt;
+       opacity: 100%;
+       transition-delay: 0.5s;
+       transition-duration: 0.5s;
+}
+#menu_nav_icon {
+       width: 50px;
+}
+#items_list {
+       list-style: none;
+       padding: 0;
+       margin: 0;
+       margin-top: 30px;
+}
+.nav_item {
+       text-decoration: none;
+       color: white;
+       font-family:fontExterna1B;
+       transition: 0.5s;
+       
+}
+#nav_bar:hover a {
+       padding-right: 250px;
+       transition-duration: 0.5s;
+}
+.nav_item:hover li{ 
+       transform: scale(1.1,1.1);
+       background-color: #1e3db8;
+       
+}
+.nav_item li {
+       transition: all 0.8s;
+       font-size: 0;
+       opacity: 0;
+       padding-top: 15px;
+       padding-bottom: 15px;
+}
+#item_1 li {
+       transform: scale(1.1,1.1);
+       background-color: #1e3db8;
+}

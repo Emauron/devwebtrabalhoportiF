@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Document</title>
+       <link rel="stylesheet" href="nav-bar.css">
+       <link rel="stylesheet" href="page.css">
+       <link rel="stylesheet" href="pagelesson.css">
+       <style>
+              body {
+                     overflow-y: hidden;
+              }
+              .code {
+                     font-family: fontExterna1B;
+                     color: white;
+                     font-size: 22pt;
+                     margin-right:50px;
+                     max-width: 400px;
+                     opacity: 80%;
+              }
+              #hover_exemple {
+                     width: 200px;
+                     height: 200px;
+                     background-color: #264DE4;
+                     display: flex;
+                     align-items: center;
+                     justify-content: center;
+                     color: white;
+                     font-size: 22pt;
+                     font-family: fontExterna1B;
+                     text-align: center;
+                     transition: 1s;
+              }
+              #rail:hover #hover_exemple {
+                     border-radius: 50%;
+                     transform: translate(700px);
+                     background-color: chocolate;
+              }
+              #rail:hover {
+                     background-color: rgba(112, 58, 20, 0.651);
+              }
+              #rail:hover #hiddentext{
+                     position: absolute;
+                     opacity: 100%;
+                     display: inline;
+                     color: rgb(255, 255, 255);
+              }
+
+              #rail:hover #text {
+                     opacity: 0;   
+              }
+              #rail {
+                     width: 900px;
+                     padding: 10px;
+                     background-color: #060e30;
+                     margin-left: 110px;
+                     margin-top: 40px;
+                     transition: 1s;
+              }
+              #text {
+                     transition: 1s;
+              }
+              #hiddentext{
+                     display: none;
+                     opacity: 0;
+                     color: rgba(255, 228, 196, 0);
+                     transition: 1s;
+              }
+       </style>
+</head>
+<body>
+       <nav id="nav_bar">
+              <a href="../[01] First Page/index.html">
+                     <div id="title_nav">
+                     <img src="imgs/nav_icon.png" alt="" id="menu_nav_icon"><img src="" alt="">
+                     <h3>MENU</h3>
+              </div>
+              </a>
+              <ul id="items_list">
+                     <a href="../Introduction/introduction.html" id="item_1" class="nav_item"><li>Introdução</li></a>
+                     <a href="../PageHTML/tagspage.html" id="item_2" class="nav_item"><li>Tags HTML</li></a>
+                     <a href="../PageCSS/pagestylecss.html" id="item_3" class="nav_item"><li>Estilo CSS</li></a>
+                     <a href="../PageExemples/mainExemple.html" id="item_4" class="nav_item"><li>Exemplos</li></a>
+              </ul>
+       </nav>
+       <main>
+              <section id="menu">
+                     <div id="introductionText">
+                     <h1 >:hover</h1>
+                     </div>
+                     <article>
+                            <p>    
+                                   O :hover é um pseudo-classe em CSS que permite que você aplique estilos a um elemento HTML quando o cursor do mouse é colocado sobre ele. Essa pseudo-classe é amplamente usada para criar interatividade e realçar elementos em páginas da web quando os usuários interagem com eles. <br>
+                                   A sintaxe básica para usar :hover é adicionar :hover ao seletor de um elemento no seu arquivo CSS. 
+                            <br><br>      
+                     </p>
+                     <div class="code" id="code_bg">
+                            <span>
+                                   elemento:hover { <br>
+                                           *alterações nas propriedades do elemento*<br>
+                                      } <br>
+                            </span>
+                     </div>
+                            <p>
+                                   É muito usado para mudar a cor ou a cor do fundo de elementos, realçar elemtos, mostrar informações adicionais, criar animações simples, alterar o layout, esconder ou mostrar elemento e por ai vai.
+                            </p>
+                     </article>
+                     <div id="rail">
+                            <div id="hover_exemple"><span id="text">PASSE O MOUSE</span><span id="hiddentext">RETIRE O MOUSE</span></div>
+                     </div> 
+       </main>
+</body>
+</html>

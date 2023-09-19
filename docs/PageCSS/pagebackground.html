@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Document</title>
+       <link rel="stylesheet" href="nav-bar.css">
+       <link rel="stylesheet" href="page.css">
+       <link rel="stylesheet" href="pagelesson.css">
+       <style>
+              .code {
+                     font-family: fontExterna1B;
+                     color: white;
+                     font-size: 22pt;
+                     margin-right:50px;
+                     max-width: 400px;
+                     opacity: 80%;
+              }
+              #code_bg {
+                     max-width: 1000px;
+                     margin-top: 40px;
+                     margin-left: 60px;
+              }
+              
+              
+       </style>
+</head>
+<body>
+       <nav id="nav_bar">
+              <a href="../[01] First Page/index.html">
+                     <div id="title_nav">
+                     <img src="imgs/nav_icon.png" alt="" id="menu_nav_icon"><img src="" alt="">
+                     <h3>MENU</h3>
+              </div>
+              </a>
+              <ul id="items_list">
+                     <a href="../Introduction/introduction.html" id="item_1" class="nav_item"><li>Introdução</li></a>
+                     <a href="../PageHTML/tagspage.html" id="item_2" class="nav_item"><li>Tags HTML</li></a>
+                     <a href="../PageCSS/pagestylecss.html" id="item_3" class="nav_item"><li>Estilo CSS</li></a>
+                     <a href="../PageExemples/mainExemple.html" id="item_4" class="nav_item"><li>Exemplos</li></a>
+              </ul>
+       </nav>
+       <main>
+              <section id="menu">
+                     <div id="introductionText">
+                     <h1 >BACKGROUND</h1>
+                     <h2>background-color</h2>
+                     </div>
+                     <article>
+                            <p>    
+                                   O background-color é uma propriedade CSS que define a cor de fundo de um elemento HTML. A propriedade background-color aceita valores que especificam a cor desejada. Você pode usar nomes de cores pré-definidos, códigos de cores em hexadecimal, códigos RGB ou RGBA, entre outros formatos de cores suportados pelo CSS. 
+                                   <br><br>    
+                            </p>
+                            <div class="code">
+                                   <span>
+                                          &lt;head> <br>
+                                                 &lt;title>Minha Página&lt;/title> <br>
+                                                 &lt;link rel="stylesheet" type="text/css" href="styles.css"> <br>
+                                                 &lt;/head>
+                                   </span> <br>
+                            </div>
+                     </article>
+                     <div id="introductionText">
+                            <h2>background-image</h2>
+                     </div>
+                            <article id="textobg">
+                                   <p>
+                                          A propriedade background-image em CSS permite que você defina uma imagem como plano de fundo para um elemento HTML. Ela é amplamente utilizada para adicionar elementos visuais, texturas ou imagens de fundo a elementos como divs, seções, cabeçalhos, ou mesmo o corpo inteiro de uma página da web.
+                                          <br>
+                                          A propriedade background-image aceita um valor que especifica o caminho (URL) da imagem que você deseja usar como plano de fundo.
+                                   </p>
+                                   <div class="code" id="code_bg">
+                                          <span>
+                                                 elemento { <br>
+                                                        background-image: url('caminho/para/sua-imagem.jpg'); <br>
+                                                        background-repeat: no-repeat; /* Não se repete */ <br>
+                                                        background-size: cover; /* Cobrir todo o elemento */
+                                                        background-position: center; /* Centralizar a imagem no elemento */ <br>
+                                                        background-attachment: fixed; /* Fixa a imagem de fundo */ <br>
+                                                    } <br>
+                                          </span>
+                                   </div>
+                            </article>
+                     </div>
+       </main>
+</body>
+</html>

@@ -1,0 +1,88 @@
+@font-face {
+       font-family: fontExterna1;
+       src: url(PPTelegraf-Regular.otf);
+}
+@font-face {
+       font-family: fontExterna1B;
+       src: url(PPTelegraf-UltraBold.otf);
+}
+#timeline_v {
+       background-image: url(imgs/timeline_vert.png);
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+       width: 432px;
+       padding-right: 40px;
+       font-size: 16pt;
+       font-family: fontExterna1;
+       font-weight: bolder;
+
+}   
+#intermitente {
+       display: flex;
+       flex-direction: column;
+}
+#timeline_v ul{
+       margin: 0;
+       padding: 0;
+       list-style: none;
+       
+}  
+#items-up {
+       display: flex;
+       width: 80%;
+       flex-basis: 432px;
+       max-height: 110px;
+       justify-content: space-between;
+}
+#items-down {
+       display: flex;
+       width: 100%;
+       flex-basis: 432px;
+       max-height: 120px;
+       justify-content: end;
+       
+}
+#items-down a{
+       margin-top: 30px;
+       display: flex;
+       align-items: end;
+       justify-content: center;
+       
+
+}
+#line_why{
+       margin-right: -7px;
+}
+#line_can {
+       margin-left: 152px;
+       margin-right: -40px;
+       position: relative;
+       top: 10px;
+       
+}
+#timeline_v a {
+       width: 100px;
+       height: 100px;
+       text-align: center;
+       text-decoration: none;
+       color: white;
+       transition: 1s;
+
+}
+#timeline_v a{
+       opacity:0%;
+}
+#timeline_v a:hover {
+       opacity: 100%;
+
+}
+#timeline_v li {
+       font-family: fontExterna1;
+       
+}
+#rulerdiv {
+       margin-left: 20%;
+       margin-top: -400px;
+       transform: scale(1.15,1.15);
+}

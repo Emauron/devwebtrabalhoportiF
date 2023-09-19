@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Document</title>
+       <link rel="stylesheet" href="nav-bar.css">
+       <link rel="stylesheet" href="page.css">
+       <link rel="stylesheet" href="pagelesson.css">
+       <style>
+              @font-face {
+              font-family: fontExterna1B;
+              src: url(../PPTelegraf-UltraBold.otf);
+              }
+              body {
+                     overflow-y:auto;
+              }
+              #titles {
+                     font-family:sans-serif;    text-align: end;      
+                     margin-right: 200px;   
+                     color: rgb(255, 255, 255); 
+                     opacity: 80%;       
+              }
+              #titles h1{
+                     font-size: 90pt;
+                     margin: 0;
+                     margin-bottom: 10px;
+              }
+              #titles h2 {
+                     font-size: 60pt;
+                     margin: 0;
+                     margin-bottom: 10px;
+              }
+              #titles h3 {
+                     font-size: 45pt;
+                     margin: 0;
+                     margin-bottom: 10px;
+              }
+              #titles h4 {
+                     font-size: 35pt;
+                     margin: 0;
+                     margin-bottom: 10px;
+              }
+              #titles h5 {
+                     font-size: 30pt;
+                     margin: 0;
+                     margin-bottom: 10px;
+              }
+              #titles h6{
+                     font-size: 25pt;
+                     margin: 0;
+                     margin-bottom: 10px;
+              }
+              article p {
+                     margin-top: 0;
+              }
+       </style>
+</head>
+<body>
+       <nav id="nav_bar">
+              <div id="title_nav">
+                     <a href="../[01] First Page/index.html">
+                            <img src="imgs/nav_icon.png" alt="" id="menu_nav_icon"><img src="" alt="">
+                            <h3>MENU</h3>
+                            </div>
+                     </a>
+              <ul id="items_list">
+                     <a href="../Introduction/introduction.html" id="item_1" class="nav_item"><li>Introdução</li></a>
+                     <a href="../PageHTML/tagspage.html" id="item_2" class="nav_item"><li>Tags HTML</li></a>
+                     <a href="../PageCSS/pagestylecss.html" id="item_3" class="nav_item"><li>Estilo CSS</li></a>
+                     <a href="../PageExemples/mainExemple.html" id="item_4" class="nav_item"><li>Exemplos</li></a>
+                     
+              </ul>
+       </nav>
+       <main>
+              <section id="menu">
+                     <div id="introductionText">
+                     <h1 >TÍTULOS E TEXTO</h1>
+                     <h2>Títulos</h2>
+                     </div>
+                     <article>
+                            <p>Em HTML, os títulos são elementos usados para definir a estrutura hierárquica de uma página da web e fornecer informações sobre a importância relativa do conteúdo. Os títulos são essenciais para a acessibilidade, usabilidade e otimização de mecanismos de busca (SEO) de uma página. Existem seis níveis de títulos em HTML, representados pelas tags &lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, &gt;h4&lt;, &lt;h5&gt;, e &lt;h6&gt;. Aqui está uma descrição de cada um:
+
+                            &lt;h1> (Heading 1): O título principal da página. Deve ser usado uma única vez em cada página e representa o tópico mais importante da página.
+                                   
+                            &lt;h2> (Heading 2): Usado para subtítulos importantes que estão relacionados ao título principal (&lt;h1>). Pode haver vários &lt;h2> em uma página, mas eles devem se subordinar ao &lt;h1>.
+                                   
+                            &lt;h3> (Heading 3): Usado para subdividir tópicos dentro de um &lt;h2>. Ou seja, &lt;h3>s são subordinados a &lt;h2>s e devem ser usados para seções mais específicas.
+                                   
+                            &lt;h4>, &lt;h5>, e &lt;h6>: São usados para títulos de níveis mais baixos, cada um sendo menos importante que o nível acima. A estrutura de títulos deve formar uma hierarquia lógica.
+                            <br><br>      
+                            Árvore de Elementos: O DOM representa uma página da web como uma árvore de elementos, onde cada elemento HTML (como tags &lt;html&gt;, &lt;head&gt;, &lt;body&gt;, &lt;div&gt;, etc.) é representado por um nó na árvore. Esses nós estão organizados hierarquicamente, refletindo a estrutura do documento.</p>
+                            <div id="titles"><h1>H1</h1><h2>H2</h2><h3>H3</h3><h4>H4</h4><h5>H5</h5><h6>H6</h6></div>
+                     </article>
+                     <div id="introductionText">
+                            <h2>Textos</h2>   
+                     </div>
+                     <article>
+                            <p>
+                               <strong>&lt;p>:</strong> Cria um parágrafo para texto. <br>
+                               <strong>&lt;b>:</strong> Define texto em negrito<br>                   
+                               <strong>&lt;big></strong>Define texto grande <br>
+                               <strong>&lt;em></strong>Define texto enfatizado; <br>
+                               <strong>&lt;i></strong>Define texto em itálico <br>
+                               <strong>&lt;small></strong>Define texto pequeno <br>
+                               <strong>&lt;strong></strong>Define texto forte <br>
+                               <strong>&lt;sub></strong>Define texto subescrito <br>
+                               <strong>&lt;sup></strong>Define texto superescrito <br>
+                               <strong>&lt;ins></strong>Define texto inserido <br>
+                               <strong>&lt;del></strong>Define texto cancelado <br>
+                               <strong>&lt;blockquote></strong>Permite a inclusão de texto com origem de outro site. <br>
+                               
+                            </p>
+                     </article>
+</body>
+</html>

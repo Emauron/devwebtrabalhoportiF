@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Document</title>
+       <link rel="stylesheet" href="nav-bar.css">
+       <link rel="stylesheet" href="page.css">
+       <link rel="stylesheet" href="pagelesson.css">
+       <style>
+              #menu ul {
+                     margin: 0;
+                     margin-top: 20px;
+                     color: white;
+                     font-size: 18pt;
+                     max-width: 900px;
+                     text-align: justify;
+                     font-family: fontExterna1;
+                     margin-left: 60px;
+                     list-style: none;
+              }
+              #menu ul li {
+                     margin-bottom: 5px;
+              }
+              .code {
+                     font-family: fontExterna1B;
+                     color: white;
+                     font-size: 24pt;
+                     margin-right:20px;
+                     opacity: 80%;
+                     max-width: 550px;
+              }
+              #ancora {
+                     filter: grayscale(100%);
+                     transform: rotate(20deg);
+                     opacity: 50%;
+                     width: calc(100% -50px);
+              }
+       </style>
+</head>
+<body>
+       <nav id="nav_bar">
+              <div id="title_nav">
+                     <a href="../[01] First Page/index.html">
+                            <img src="imgs/nav_icon.png" alt="" id="menu_nav_icon"><img src="" alt="">
+                            <h3>MENU</h3>
+                            </div>
+                     </a>
+              <ul id="items_list">
+                     <a href="../Introduction/introduction.html" id="item_1" class="nav_item"><li>Introdução</li></a>
+                     <a href="../PageHTML/tagspage.html" id="item_2" class="nav_item"><li>Tags HTML</li></a>
+                     <a href="../PageCSS/pagestylecss.html" id="item_3" class="nav_item"><li>Estilo CSS</li></a>
+                     <a href="../PageExemples/mainExemple.html" id="item_4" class="nav_item"><li>Exemplos</li></a>
+              </ul>
+       </nav>
+       <main>
+              <section id="menu">
+                     <div id="introductionText">
+                     <h1 >Âncora</h1>
+                     </div>
+                     <article>
+                            <div>
+                            <p>A tag âncora em HTML é representada pela tag &lt;a>, que é usada para criar hiperlinks ou links em uma página da web. Os hiperlinks permitem que os usuários cliquem em um texto ou imagem para navegar para outra página, recurso ou recurso na web, seja em outro site, na mesma página ou em um local diferente na mesma página. Aqui estão os principais atributos e usos da tag &lt;a>
+                            <br><br>
+                            <strong>Atributo href (Hypertext Reference):</strong>  Especifica o destino do link, ou seja, a URL para a qual o usuário será direcionado quando o link for clicado. A URL pode ser relativa (para links internos) ou absoluta (para links externos).
+                            <br><br>
+                            <strong>Atributo target:</strong> Este atributo controla como o destino do link será exibido. Os valores comuns incluem: <br></p>
+                            <ul>
+                                   <li><strong>_blank: </strong> Abre o link em uma nova janela ou guia do navegador.</li>
+                                   <li><strong>_self: </strong>Abre o link na mesma janela ou guia (padrão).</li>
+                                   <li><strong>_parent: </strong>Abre o link na janela pai.</li>
+                                   <li><strong>_target: </strong>Remove todos os frames e abre o link na janela superior.</li>
+                            </ul>
+                            <br><br>
+                            <p>
+                            <strong>Texto do Link:</strong> O texto ou conteúdo dentro das tags &lt;a> é o que os usuários veem e clicam para seguir o link. É conhecido como o "texto âncora". <br><br>
+                            </p>
+                            </div>
+                            <div class="code">
+                                   <span>&lt;a href="https://www.exemplo.com" target="_blank"> </a></span>
+                                   <img src="imgs/ancora_img.png" alt="" id="ancora">
+                            </div>
+                     </article>
+       </main>
+       
+</body>
+</html>
