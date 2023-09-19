@@ -1,0 +1,125 @@
+@font-face {
+       font-family: fontExterna;
+       src: url(PPTelegraf-Regular.otf);
+}
+h1 {
+       font-family: fontExterna;
+       font-size: 45pt;
+       color: white;
+       font-weight: 300;
+       margin-top: 100px;
+       margin-bottom: 10px;
+       padding: 0;
+}
+h2 {
+       font-family: fontExterna;
+       font-size: 20pt;
+       color: white;
+       font-weight: 300;
+       margin-top: 0;
+       margin-bottom: 20px;
+       padding: 0;    
+}
+body{
+       background-image:url(Imagens/mainpage_bg.png);
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-clip: border-box;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       overflow:auto;
+       margin-bottom: 0;
+}
+#menu_nav {
+       
+       max-width: 900px;
+       min-height:600px;
+       background-image: url(Imagens/nav_bg.png);
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+}
+#menu_nav ul {
+       list-style: none;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-around;
+       margin: 50px;
+       margin-top: 0px;
+       padding: 20px;
+}
+#menu_nav li {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       padding-top: 10px;
+       padding-bottom: 15px;
+
+}
+#menu_nav a {
+       text-decoration: none;
+       color: white;
+       font-size: 18pt;
+       font-family: fontExterna;
+       margin: 30px;
+       transition: 1s;
+       width: 160px;
+       
+       
+}
+
+#menu_nav a:hover{
+       transform: scale(1.20,1.20);
+       background-color: rgba(0, 0, 0, 0.37);
+}
+#introducao_img {
+       width: 160px;
+       display: inline-block;
+}
+#menu_nav span {
+       margin-top: -15px;
+}
+#html_icon{
+       font-size: 60pt;
+       margin-bottom: 25px;
+       margin-top: 50px;
+}
+#css_icon{
+       font-size: 60pt;
+       margin-bottom: 25px; 
+       margin-top: 50px;
+}
+#exemple_icon {
+       width: 160px;
+}
+#aboutme_icon {
+       width: 150px;
+       padding-bottom: 10px;
+}
+/*-----------*/
+#contact_icons{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       list-style: none;
+       padding: 0;
+       margin-top: 50px;
+}
+#instagram {
+       width: 25px;
+       filter: invert(100%);
+}
+#email{
+       width: 30px;
+       filter: invert(100%);
+}
+#linkedin{
+       width: 30px;
+       filter: invert(100%);
+}
+#made_by {
+       font-family: fontExterna;
+       color: white;
+       font-size: 13;
+}
